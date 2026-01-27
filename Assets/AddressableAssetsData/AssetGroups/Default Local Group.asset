@@ -14,12 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
   m_GroupName: Default Local Group
   m_GUID: 1ef2e0b002b904b8096c41edf8ea89c0
-  m_SerializeEntries:
-  - m_GUID: c2cf5193c1a2b40098c7e8776276a84c
-    m_Address: Assets/_App/Presentation/Consent/Prefab/Consent View.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 97c80ced87080438886a8ad11ff64569, type: 2}
   m_SchemaSet:

@@ -1,4 +1,5 @@
 using Core.Framework;
+using Core.Framework.Interfaces;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using VContainer;
@@ -18,6 +19,8 @@ public class AppLifeTimeScope : LifetimeScope
         
         builder.Register<UGSAuthService>(Lifetime.Singleton);
         builder.Register<UGSInitService>(Lifetime.Singleton);
+        builder.Register<UGSLeaderboardService>(Lifetime.Singleton);
+        
         builder.Register<IConsentService, ConsentService>(Lifetime.Singleton);
         
         builder.RegisterBuildCallback(container =>
@@ -33,9 +36,12 @@ public class AppLifeTimeScope : LifetimeScope
                 else
                 {
                     Debug.Log("User declined consent");
+                    // Application.Quit();
                 }
             });
         });
+
+        builder.Register<IGameAnalyticsService, GameAnalyticsService>(Lifetime.Singleton).As<IInitializable>();
 
     }
 }

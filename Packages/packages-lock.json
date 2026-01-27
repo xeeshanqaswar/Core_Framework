@@ -143,16 +143,6 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.analytics": {
-      "version": "3.8.2",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.ugui": "1.0.0",
-        "com.unity.services.analytics": "1.0.4"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.burst": {
       "version": "1.8.25",
       "depth": 2,
@@ -299,17 +289,6 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-    "com.unity.services.analytics": {
-      "version": "6.1.1",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.ugui": "1.0.0",
-        "com.unity.services.core": "1.12.4",
-        "com.unity.modules.jsonserialize": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.services.authentication": {
       "version": "3.5.2",
       "depth": 1,
@@ -342,6 +321,15 @@
         "com.unity.services.authentication": "3.3.3"
       },
       "url": "https://packages.unity.com"
+    },
+    "com.unity.services.leaderboards": {
+      "version": "file:com.unity.services.leaderboards",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.services.authentication": "3.3.3",
+        "com.unity.services.core": "1.15.1"
+      }
     },
     "com.unity.services.levelplay": {
       "version": "9.2.0",
