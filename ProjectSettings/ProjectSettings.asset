@@ -166,7 +166,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   androidMinAspectRatio: 1
   applicationIdentifier:
-    Android: com.ArcanineStudios.CoreFramework
+    Android: com.arcaninestudios.core
     iPhone: com.ArcanineStudios.CoreFramework
   buildNumber:
     Standalone: 0
