@@ -56,7 +56,8 @@
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0",
     "com.google.external-dependency-manager": "1.2.178",
-    "com.gameanalytics.sdk": "7.10.6"
+    "com.gameanalytics.sdk": "7.10.6",
+    "com.cysharp.unitask": "2.5.10"
   },
   "scopedRegistries": [
     {
@@ -64,7 +65,8 @@
       "url": "https://package.openupm.com",
       "scopes": [
         "com.gameanalytics.sdk",
-        "com.google.external-dependency-manager"
+        "com.google.external-dependency-manager",
+        "com.cysharp.unitask"
       ]
     }
   ]

@@ -13,7 +13,8 @@
     "jp.hadashikick.vcontainer": "https://github.com/hadashiA/VContainer.git?path=VContainer/Assets/VContainer#1.16.9",
     "com.unity.addressables": "2.7.6",
     "com.unity.ads": "4.16.4",
-    "com.google.external-dependency-manager": "1.2.178"
+    "com.google.external-dependency-manager": "1.2.178",
+    "com.cysharp.unitask": "2.5.10"
   },
   "keywords": [
     "arcanine studios",

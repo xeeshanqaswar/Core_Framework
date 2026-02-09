@@ -7,7 +7,8 @@ Add the following to your `manifest.json`
       "url": "https://package.openupm.com",
       "scopes": [
         "com.gameanalytics.sdk",
-        "com.google.external-dependency-manager"
+        "com.google.external-dependency-manager",
+        "com.cysharp.unitask"
       ]
     }
   ]
