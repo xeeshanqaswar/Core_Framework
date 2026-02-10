@@ -13,3 +13,9 @@ Add the following to your `manifest.json`
     }
   ]
 ```
+
+### Consume
+Add the following to your `manifest.json`
+```c#
+"com.arcaninestudios.core": "https://github.com/xeeshanqaswar/Core_Framework.git#package"
+```
