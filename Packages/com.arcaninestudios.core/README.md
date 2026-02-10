@@ -1,5 +1,10 @@
 ## Requirements
 Add the following to your `manifest.json`
+
+```json
+"com.arcaninestudios.core": "https://github.com/ORG/REPO.git#package"
+```
+
 ```json
 "scopedRegistries": [
     {
