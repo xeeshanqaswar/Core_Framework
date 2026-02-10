@@ -1,0 +1,24 @@
+{
+    "name": "Arcanine.Core.Runtime",
+    "rootNamespace": "Arcanine.Core",
+    "references": [
+        "GUID:fe25561d224ed4743af4c60938a59d0b",
+        "GUID:f8c64bb88d959406689053ae3f31183d",
+        "GUID:5540e30183c82e84b954c033c388e06c",
+        "GUID:b0214a6008ed146ff8f122a6a9c2f6cc",
+        "GUID:2073209246492244c9ad62c89d8d37bb",
+        "GUID:9e24947de15b9834991c9d8411ea37cf",
+        "GUID:be0d2672886cc45b2bcea5a5053a5347",
+        "GUID:c3e847927e5747f9a371134e85820ab3",
+        "GUID:84651a3751eca9349aac36a66bba901b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

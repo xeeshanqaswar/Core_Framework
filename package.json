@@ -1,0 +1,30 @@
+{
+  "name": "com.arcaninestudios.core",
+  "version": "0.1.0",
+  "displayName": "Arcanine Core",
+  "description": "Arcanine core framework consists of essential components and services for game development.",
+  "unity": "6000.3",
+  "dependencies": {
+    "com.unity.services.cloudsave": "3.4.0",
+    "com.unity.services.economy": "3.5.3",
+    "com.unity.services.friends": "1.1.1",
+    "com.unity.services.leaderboards": "2.3.3",
+    "com.unity.services.levelplay": "9.2.0",
+    "jp.hadashikick.vcontainer": "https://github.com/hadashiA/VContainer.git?path=VContainer/Assets/VContainer#1.16.9",
+    "com.unity.addressables": "2.7.6",
+    "com.unity.ads": "4.16.4",
+    "com.google.external-dependency-manager": "1.2.178",
+    "com.cysharp.unitask": "2.5.10"
+  },
+  "keywords": [
+    "arcanine studios",
+    "arcanine",
+    "framework",
+    "upm"
+  ],
+  "author": {
+    "name": "ZeoLion",
+    "email": "arcaninestudiogames@gmail.com",
+    "url": "https://www.google.com"
+  }
+}
