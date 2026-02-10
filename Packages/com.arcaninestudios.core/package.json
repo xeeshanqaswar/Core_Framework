@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "displayName": "Arcanine Core",
   "description": "Arcanine core framework consists of essential components and services for game development.",
-  "unity": "6000.3.0",
+  "unity": "6000.3",
   "dependencies": {
     "com.unity.services.cloudsave": "3.4.0",
     "com.unity.services.economy": "3.5.3",

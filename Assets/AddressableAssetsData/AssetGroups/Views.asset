@@ -14,12 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
   m_GroupName: Views
   m_GUID: 1ba7abeef791a464b80c2c747b55ae4a
-  m_SerializeEntries:
-  - m_GUID: c2cf5193c1a2b40098c7e8776276a84c
-    m_Address: Consent View
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 97c80ced87080438886a8ad11ff64569, type: 2}
   m_SchemaSet:

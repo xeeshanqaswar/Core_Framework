@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Arcanine Core/Runtime/Samples/Startup/Scene/Startup.unity
+    path: Assets/Arcanine Core/Sample/Startup/Scene/Startup.unity
     guid: de033ad7d7bd740958e29cf8ed7c79dc
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: d19301bbb49364c6c83f5ef08eec6a67, type: 2}
