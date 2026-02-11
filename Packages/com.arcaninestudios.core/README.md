@@ -13,7 +13,10 @@ Add the following to your `manifest.json`
       "scopes": [
         "com.gameanalytics.sdk",
         "com.google.external-dependency-manager",
-        "com.cysharp.unitask"
+        "com.cysharp.unitask",
+        "com.ohze.google.external-dependency-manager",
+        "com.ohze.google.firebase.app",
+        "com.ohze.google.firebase.crashlytics"
       ]
     }
   ]

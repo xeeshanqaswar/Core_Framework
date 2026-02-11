@@ -11,10 +11,11 @@ public class AppLifeTimeScope : LifetimeScope
     {
         base.Configure(builder);
 
+        // Resources
         builder.RegisterInstance(consentConfigs);
-        
         builder.RegisterComponentInHierarchy<IRootUi>();
         
+        // Unity Game Service
         builder.Register<UGSAuthFacade>(Lifetime.Singleton);
         builder.Register<UGSInitFacade>(Lifetime.Singleton);
         builder.Register<UGSLeaderboardFacade>(Lifetime.Singleton);
@@ -23,6 +24,9 @@ public class AppLifeTimeScope : LifetimeScope
         
         builder.Register<IConsentService, ConsentService>(Lifetime.Singleton);
         builder.Register<IGameAnalyticsFacade, GameAnalyticsFacade>(Lifetime.Singleton).As<IInitializable>();
+        
+        // Firebase
+        builder.Register<IInitializable, FirebaseFacade>(Lifetime.Singleton).As<IInitializable>();
         
         builder.RegisterBuildCallback(container =>
         {

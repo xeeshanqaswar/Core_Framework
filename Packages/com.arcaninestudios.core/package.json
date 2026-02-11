@@ -14,7 +14,8 @@
     "com.unity.addressables": "2.7.6",
     "com.unity.ads": "4.16.4",
     "com.google.external-dependency-manager": "1.2.178",
-    "com.cysharp.unitask": "2.5.10"
+    "com.cysharp.unitask": "2.5.10",
+    "com.ohze.google.firebase.crashlytics": "12.8.0"
   },
   "keywords": [
     "arcanine studios",
