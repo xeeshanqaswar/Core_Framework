@@ -2,7 +2,7 @@
 Add the following to your `manifest.json`
 
 ```json
-"com.arcaninestudios.core": "https://github.com/xeeshanqaswar/Core_Framework.git?path=/Packages/com.arcaninestudios.core#0.1.0"
+"com.arcaninestudios.core": "https://github.com/xeeshanqaswar/Core_Framework.git?path=/Packages/com.arcaninestudios.core#0.1.2"
 ```
 
 ```json
@@ -16,7 +16,8 @@ Add the following to your `manifest.json`
         "com.cysharp.unitask",
         "com.ohze.google.external-dependency-manager",
         "com.ohze.google.firebase.app",
-        "com.ohze.google.firebase.crashlytics"
+        "com.ohze.google.firebase.crashlytics",
+        "jp.hadashikick.vcontainer"
       ]
     }
   ]
