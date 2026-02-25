@@ -2,7 +2,7 @@
 Add the following to your `manifest.json`
 
 ```json
-"com.arcaninestudios.core": "https://github.com/xeeshanqaswar/Core_Framework.git?path=/Packages/com.arcaninestudios.core#0.1.2"
+"com.arcaninestudios.core": "https://github.com/xeeshanqaswar/Core_Framework.git?path=/Packages/com.arcaninestudios.core#0.1.3"
 ```
 
 ```json
